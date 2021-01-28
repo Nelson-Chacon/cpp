@@ -5,12 +5,9 @@ using namespace std;
 int main(int argc, char** argv) {
 	int NumeroEntero =15;
 	cout<<"\nEl numero entero es: "<<NumeroEntero;
+	
 	NumeroEntero =18;
 	cout<<"\nEl Nuevo numero entero es: "<<NumeroEntero;
-	
-	
-	
-	
-	
+
 	return 0;
 }

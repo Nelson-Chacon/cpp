@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-
 int main(int argc, char const *argv[])
 {   string nombre;
     cout<<"\nCual es su nombre: ";
