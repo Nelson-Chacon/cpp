@@ -18,11 +18,11 @@ int main(int argc, char const *argv[])
     cin>>descuento;
     cout<<"\nSu factura esta exenta de impuesto (S/N): ";
     cin>>exenta;
-    if(exenta == 's'){
+    if(exenta == 's'||exenta =='S'){
     calculo_descuento = subtotal- ((subtotal *descuento)/100);
     cout<<"El total a pagar es: "<<calculo_descuento;
     }
-    else if (exenta = 'n' ){
+    else if (exenta = 'n' || exenta == 'N' ){
     calculo_descuento = (subtotal *descuento)/100;
     calculo_impuesto= (subtotal - calculo_descuento)*impuesto;
     total = subtotal - calculo_descuento + calculo_impuesto;
