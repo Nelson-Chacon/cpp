@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
     int descuento =0;
     double calculo_descuento = 0;
     double calculo_impuesto=0;
-    char opcion ;
+    char exenta ;
 
     cout<<"\t\tFACTURA CON DESCUENTO";
     cout<<"\nIngrese el subtotal de la factura: ";
@@ -17,18 +17,17 @@ int main(int argc, char const *argv[])
     cout<<"\nIngrese el descuento que decea aplicar (0, 10, 15, 20, 50): ";
     cin>>descuento;
     cout<<"\nSu factura esta exenta de impuesto (S/N): ";
-    cin>>opcion;
-    if(opcion == 's'){
+    cin>>exenta;
+    if(exenta == 's'){
     calculo_descuento = subtotal- ((subtotal *descuento)/100);
     cout<<"El total a pagar es: "<<calculo_descuento;
     }
-    else if (opcion = 'n' ){
+    else if (exenta = 'n' ){
     calculo_descuento = (subtotal *descuento)/100;
     calculo_impuesto= (subtotal - calculo_descuento)*impuesto;
     total = subtotal - calculo_descuento + calculo_impuesto;
-    
-     cout<<endl;
-     cout<<"El total a pagar es: "<<total;
+    cout<<endl;
+    cout<<"El total a pagar es: "<<total;
     }
     return 0;
 }
