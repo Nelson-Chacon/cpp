@@ -5,9 +5,11 @@ int main(int argc, char const *argv[])
     int nota=0;
     cout<<"Ingrese su nota: ";
     cin>>nota;
-    if (nota >100 || nota <0 ){
+    if(nota<=100 || nota>=0){
+        cout<<"Ingrese una nota entre o y 100";
         return 0;
     }
+
     if(nota >=95 && nota<= 100){
         cout<<"Obtuviste una A";
     }
