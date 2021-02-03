@@ -6,6 +6,7 @@ int main(int argc, char const *argv[])
     int opcion=0;
     while (true)
     {
+        system("cls");
         cout<<"********"<<endl;
         cout<<"**MENU**"<<endl;
         cout<<"********"<<endl;
