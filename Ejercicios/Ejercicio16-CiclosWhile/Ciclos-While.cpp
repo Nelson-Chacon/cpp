@@ -12,6 +12,7 @@ int main(int argc, char const *argv[])
         cout<<"\nIngrese un numero: ";
         cin>>a;
     }
-    
+    cout<<endl;
+    cout<<"Saliste del ciclo";
     return 0;
 }
