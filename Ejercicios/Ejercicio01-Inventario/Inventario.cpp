@@ -130,13 +130,6 @@ void Salida_mantenimiento(){
 int main(int argc, char const *argv[])
 {
     int opcion=0;
-    string productos [5][2] = {
-        {"001", "Iphone x"},
-        {"002", "Laptod DELL"},
-        {"003", "Monitor Samsung"},
-        {"004", "Mause"},
-        {"005", "headset"}
-    };
     while (true)
     {
     system ("cls");
