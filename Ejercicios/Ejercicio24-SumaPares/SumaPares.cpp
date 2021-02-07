@@ -7,13 +7,13 @@ int main(int argc, char const *argv[])
     int pares=0;
     for (int i = 0; i <= 10; i++)
     {
-        if (i==2||i==4||i==6||i==8||i==10)
+        if (i%2==0)
         {
-            cout<<i<<" ";
+            
             pares=pares+i;
             
         }
-        
+       cout<<i<<" "; 
     }
     cout<<endl;
     cout<<"La suma de todos los pares es: "<<pares<<endl;
