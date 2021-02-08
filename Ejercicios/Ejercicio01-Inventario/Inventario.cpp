@@ -42,7 +42,7 @@ void movimiento_inventario(string codigo, int cantidad, string tipo_movimiento){
     
 }
 
-void producto_mantenimiento(string codigo, int cantidad, string tipo_movimiento){//Conversion de texto a enteros
+void producto_mantenimiento(string codigo, int cantidad, string tipo_movimiento){//Nueva funcion para realizar los movimiento
     for (int i = 0; i < 5; i++)
     {
         if (productos [i][0]==codigo)
@@ -93,7 +93,7 @@ void salida_inventario(){//Resta al inventario
     system ("pause");
 
 }
-void mantenimiento(){
+void mantenimiento(){//Funcionalidad positiva ya que tendra la libertad de adicionar producto que entra a la empresa a mantenimiento
     string codigo = "";
     int cantidad=0;
     system ("cls");
@@ -110,7 +110,7 @@ void mantenimiento(){
     system ("pause");
 
 }
-void Salida_mantenimiento(){
+void Salida_mantenimiento(){//Funcionalidad negativa registra los productos que salen de mantenimiento
     string codigo = "";
     int cantidad=0;
     system ("cls");
@@ -127,15 +127,15 @@ void Salida_mantenimiento(){
     system ("pause");
 
 }
-int main(int argc, char const *argv[])
+int main(int argc, char const *argv[])//funcion principal
 {
     int opcion=0;
     while (true)
     {
     system ("cls");
-    cout<<"\tSistema de Inventario";
+    cout<<"\t\"Sistema de Inventario\"";
     cout<<endl;
-    cout<<"\t*********************";
+    cout<<"\t***********************";
     cout<<endl;
     cout<<endl;
     cout<< "1- Productos"<<endl;
