@@ -19,7 +19,7 @@ void cargarlibros()
 	libros [ 8 ] [ 0 ] = " Base de Datos " ; libros [ 8 ] [ 1 ] = " Base de Datos (2011) " ;libros [8][2] = "Erika Sanchez";
 	libros [ 9 ] [ 0 ] = " Base de Datos " ; libros [ 9 ] [ 1 ] = " Base de Datos Avanzadas (2013) " ;libros [9][2] = "Jajaira Escalante";
     libros [ 10 ] [ 0 ] = " Base de Datos " ; libros [ 10 ] [ 1 ] = " Diseño Conceptual de Bases de Datos " ;libros [10][2] = "Daniel Mejia";
-	libros [ 11 ] [ 0 ] = " Ciencia Computacional " ; libros [ 11 ] [ 1 ] = " Breves Notas sobre Automatas y Lenguajes " ;libros [11][2] = "Jajaira Escalante";
+	libros [ 11 ] [ 0 ] = " Ciencia Computacional " ; libros [ 11 ] [ 1 ] = " Breves Notas sobre Automatas y Lenguajes " ;libros [11][2] = "Herminio Juarez";
 	libros [ 12 ] [ 0 ] = " Ciencia Computacional " ; libros [ 12 ] [ 1 ] = " Breves Notas sobre Teoria de la Computación " ;libros [12][2] = "Juan Orlando Hernandez";
 	libros [ 13 ] [ 0 ] = " Metodologias de desarrollo de software " ; libros [ 13 ] [ 1 ] = " Compendio de Ingenieria del Software " ;libros [13][2] = "Salvador Nasralla";
 	libros [ 14 ] [ 0 ] = " Metodologias de desarrollo de software " ; libros [ 14 ] [ 1 ] = " Diseno agil con TDD " ;libros [14][2] = "Amado Guevara";
