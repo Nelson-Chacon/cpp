@@ -10,7 +10,7 @@ void cargarlibros()
     // Arreglo con categoria, descripcion y autores
 	libros [ 0 ] [ 0 ] = " Algoritmos " ; libros [ 0 ] [ 1 ] = " Algoritmos y Programacion (Guia para docentes) ";libros [0][2] = "Juan Salvador pinero";
 	libros [ 1 ] [ 0 ] = " Algoritmos " ; libros [ 1 ] [ 1 ] = " Apuntes de Algoritmos y Estructuras de Datos" ;libros [1][2] = "Mario Pon";
-	libros [ 2 ] [ 0 ] = " Algoritmos " ; libros [ 2 ] [ 1 ] = " Breves Notas sobre Análisis de Algoritmos " ;libros [2][2] = "Igor Mejia";
+	libros [ 2 ] [ 0 ] = " Algoritmos " ; libros [ 2 ] [ 1 ] = " Breves Notas sobre Analisis de Algoritmos " ;libros [2][2] = "Igor Mejia";
 	libros [ 3 ] [ 0 ] = " Algoritmos " ; libros [ 3 ] [ 1 ] = " Fundamentos de Informatica y Programacion " ;libros [3][2] = "Hector Garcia";
 	libros [ 4 ] [ 0 ] = " Algoritmos " ; libros [ 4 ] [ 1 ] = " Temas selectos de estructuras de datos " ;libros [4][2] = "Carmen Salgado";
 	libros [ 5 ] [ 0 ] = " Algoritmos " ; libros [ 5 ] [ 1 ] = " Teoria sintactico-gramatical de objetos " ;libros [5][2] = "Ernesto Pineda";
@@ -23,7 +23,7 @@ void cargarlibros()
 	libros [ 12 ] [ 0 ] = " Ciencia Computacional " ; libros [ 12 ] [ 1 ] = " Breves Notas sobre Teoria de la Computación " ;libros [12][2] = "Juan Orlando Hernandez";
 	libros [ 13 ] [ 0 ] = " Metodologias de desarrollo de software " ; libros [ 13 ] [ 1 ] = " Compendio de Ingenieria del Software " ;libros [13][2] = "Salvador Nasralla";
 	libros [ 14 ] [ 0 ] = " Metodologias de desarrollo de software " ; libros [ 14 ] [ 1 ] = " Diseno agil con TDD " ;libros [14][2] = "Amado Guevara";
-	libros [ 15 ] [ 0 ] = " Metodologias de desarrollo de software " ; libros [ 15 ] [ 1 ] = " Ingeniería de Software: Una Guía para Crear Sistemas de Información " ;libros [15][2] = "Xiomara Castro";
+	libros [ 15 ] [ 0 ] = " Metodologias de desarrollo de software " ; libros [ 15 ] [ 1 ] = " Ingenieria de Software: Una Guía para Crear Sistemas de Información " ;libros [15][2] = "Xiomara Castro";
 	libros [ 16 ] [ 0 ] = " Metodologias de desarrollo de software " ; libros [ 16 ] [ 1 ] = " Scrum & Extreme Programming (para programadores) " ;libros [16][2] = "Eduardo Maldonado";
 	libros [ 17 ] [ 0 ] = " Metodologias de desarrollo de software " ; libros [ 17 ] [ 1 ] = " Scrum y XP desde las trincheras " ;libros [17][2] = "Ricardo Alvarez";
 	libros [ 18 ] [ 0 ] = " Miscelaneos " ; libros [ 18 ] [ 1 ] = " 97 cosas que todo programador deberia saber " ;libros [18][2] = "Nasri Asfura";
