@@ -63,7 +63,7 @@ int main(int argc, char const *argv[])
 
         if (librominuscula.find(buscar)!=string::npos ||autorlibro.find(buscar)!=string::npos)//buscador para los libros
         {
-            cout<<"Libro encontrado fue: "<<libro<<endl;//libro que el buscador encontro
+            cout<<"Libro encontrado fue:"<<libro<<" || "<<"Autor del libro es:" <<autor<<endl;//libro que el buscador encontro
             cout<<endl;
 
             cout << "\t Tambien te sugerimos estos libros: " << endl;//sugerencias de libros
