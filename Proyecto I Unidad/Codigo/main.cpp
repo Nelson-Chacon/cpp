@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 {
     system("cls");
     int opcion=0;
-    system("color 04");
+    
     cout<<"\t******************"<<endl;
     cout<<"\t**MENU DE JUEGOS**"<<endl;
     cout<<"\t******************"<<endl;
@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
     {
     case 1:
     { 
-        system ("color a1");
+        
         starShip();
         
         
