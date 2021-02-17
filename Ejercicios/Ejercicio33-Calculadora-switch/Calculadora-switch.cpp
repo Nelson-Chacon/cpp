@@ -20,6 +20,7 @@ int calculadora(int a,int b, char operador){
     switch (operador)
     {
     case '+' :
+    system ("color a0");
         return suma(a,b);
         break;
     case '-' :
@@ -54,6 +55,7 @@ int main(int argc, char const *argv[])
     cout<<"Ingrese su operador (+ || - || * || /): ";
     cin>>operador;
     cout<<endl;
+    
     try
     {  resultado=calculadora(numero1,numero2,operador);
        cout<<"El resultado de "<<numero1<<" "<<operador<<" "<<numero2<<" es: "<<resultado<<endl;

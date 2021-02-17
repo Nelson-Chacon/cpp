@@ -133,6 +133,7 @@ int main(int argc, char const *argv[])//funcion principal
     while (true)
     {
     system ("cls");
+    
     cout<<"\t\"Sistema de Inventario\"";
     cout<<endl;
     cout<<"\t***********************";
