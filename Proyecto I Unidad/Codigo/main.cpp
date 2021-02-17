@@ -7,6 +7,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     system("cls");
+    system("color 04");
     int opcion=0;
     cout<<"\t******************"<<endl;
     cout<<"\t**MENU DE JUEGOS**"<<endl;
@@ -21,19 +22,16 @@ int main(int argc, char const *argv[])
     {
     case 1:
     { 
-        
+        system("color a1");
         starShip();
-        
-        
         break;
     }
     case 2:
     { 
-        system ("color 9c");
+        system ("color 75");
         snake();
         break;
     }
-    
     }
     return 0;
 }
