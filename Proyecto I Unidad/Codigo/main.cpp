@@ -8,7 +8,6 @@ int main(int argc, char const *argv[])
 {
     system("cls");
     int opcion=0;
-    
     cout<<"\t******************"<<endl;
     cout<<"\t**MENU DE JUEGOS**"<<endl;
     cout<<"\t******************"<<endl;

@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "thekalinga.bootstrap4-vscode"
+        "thekalinga.bootstrap4-vscode",
+        "janne252.fontawesome-autocomplete"
     ]
 }
