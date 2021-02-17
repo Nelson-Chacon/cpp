@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
 {
     system("cls");
     int opcion=0;
+    system("color 04");
     cout<<"\t******************"<<endl;
     cout<<"\t**MENU DE JUEGOS**"<<endl;
     cout<<"\t******************"<<endl;
@@ -16,19 +17,20 @@ int main(int argc, char const *argv[])
     cout<<"2-> Snake "<<endl;
     cout<<"Seleccione un juego: ";//pedimos al usuario que seleccione una opcion ingresando un numero entero
     cin>>opcion;
+    system("cls");
     switch (opcion)
     {
     case 1:
     { 
-        system("cls");
-        system ("color a0");
+        system ("color a1");
         starShip();
+        
+        
         break;
     }
     case 2:
     { 
-        system("cls");
-        system ("color 01");
+        system ("color 9c");
         snake();
         break;
     }
