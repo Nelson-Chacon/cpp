@@ -6,15 +6,15 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    system("cls");
-    system("color 04");
+    
     int opcion=0;
+    system("color 04");
     cout<<"\t******************"<<endl;
-    cout<<"\t**MENU DE JUEGOS**"<<endl;
+    cout<<"\t**MENU DE JUEGOS**"<<endl;//Nombre del menu
     cout<<"\t******************"<<endl;
     cout<<endl;
-    cout<<"1-> StarShip"<<endl;
-    cout<<"2-> Snake "<<endl;
+    cout<<"1-> StarShip"<<endl;//opcion numero1
+    cout<<"2-> Snake "<<endl;//opcion numero2
     cout<<"Seleccione un juego: ";//pedimos al usuario que seleccione una opcion ingresando un numero entero
     cin>>opcion;
     system("cls");
